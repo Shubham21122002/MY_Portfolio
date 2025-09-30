@@ -1,11 +1,13 @@
 {
   "name": "hacker-terminal-portfolio",
   "version": "1.0.0",
-  "private": true,
+  "homepage": "https://your-username.github.io/MY_Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -13,7 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "tailwindcss": "^3.3.0",
+    "gh-pages": "^6.3.0",
     "vite": "^4.0.0"
   }
 }
