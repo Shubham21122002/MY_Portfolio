@@ -14,7 +14,7 @@ const HackerTerminalPortfolio = () => {
   useEffect(() => {
     // Welcome messages
     const welcomeLines = [
-      "echo Welcome to My Hacker Terminal Portfolio",
+      "echo Welcome to My  Terminal Portfolio",
       "echo Choose an option:"
     ];
     let index = 0;
